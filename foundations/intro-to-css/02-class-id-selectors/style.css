@@ -1,1 +1,31 @@
 /* Add CSS Styling */
+
+/* 
+number.one - light red/pink background. list of fonts containing Verdanan and DejaVu Sans with sans-serif as a fallbackk
+number.two - blue text. font size 36px
+number.three - light red/pink background. list of fonts containing Verdanan and DejaVu Sans with sans-serif as a fallbackk. font size 24px
+number.four - light green background. font size 24px. bold
+number.five - light red/pink background. list of fonts containing Verdanan and DejaVu Sans with sans-serif as a fallbackk
+*/
+
+.number-one,
+.number-three,
+.number-five {
+    background-color: #e0a4ae;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#number-two {
+    color: #103af5;
+    font-size: 36px;
+}
+
+.number-three {
+    font-size: 24px;
+}
+
+#number-four {
+    background-color: #81eb78;
+    font-size: 24px;
+    font-weight: bold;
+}
