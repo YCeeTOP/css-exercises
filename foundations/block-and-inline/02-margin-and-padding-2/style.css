@@ -1,20 +1,22 @@
-body {
-  background: gray;
-  font-family: sans-serif;
-}
+  body {
+    background: gray;
+    font-family: sans-serif;
+  }
 
-.card {
-  width: 400px;
-  background: white;
-  margin: 16px auto;
-}
+  .card {
+    width: 400px;
+    background: white;
+    margin: 16px auto;
+  }
 
-.title,
-.content,
-.button-container {
-  background: dodgerblue;
-}
+  .title,
+  .content,
+  .button-container {
+    background: dodgerblue;
+  }
 
-button {
-  background: white;
-}
+  button {
+    background: white;
+  }
+
+  /* adding to ensure css file is pushed to github */
