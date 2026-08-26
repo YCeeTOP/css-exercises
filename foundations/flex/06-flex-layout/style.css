@@ -24,3 +24,73 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* remove list symobls  */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* remove text decoration */
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* establish page flex container with orientation and push header and footer to edges*/
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+/* remove list structure and create layout for header and footer links */
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+}
+
+li {
+  padding: 8px;
+}
+
+/* center content element */
+
+.logo,
+.input,
+.buttons {
+  text-align: center;
+  padding: 8px;
+
+}
+
+button {
+  padding: 8px;
+  background-color: #eeeeee;
+}
+
+/* edit footer background color */
+
+.footer {
+  background-color: #eeeeee;
+}
